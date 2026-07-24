@@ -5,7 +5,7 @@ export class GitHubUserResponseDto {
   login: string;
 
   @Expose()
-  id: string;
+  id: number;
 
   @Expose()
   node_id: string;

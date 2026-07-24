@@ -54,7 +54,7 @@ export class GitHubRepoResponseDto {
   size: number;
 
   @Expose()
-  default_branch: boolean;
+  default_branch: string;
 
   @Expose()
   topics: string[];
